@@ -1,4 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap'); */
+/* Link to the boxShadow generator url("https://css3gen.com/box-shadow/") */
+
 
 * {
   margin:0px;
@@ -6,6 +8,55 @@
   box-sizing: border-box;
 }
 
-/* .container {
+.container {
+  width: 900px;
+  height: 90vh;
+  margin:20px auto;
+  padding-top: 20px;
+  background-color: hsl(212, 45%, 89%);
+}
 
-} */
+.inner-container {
+  border-radius: 15px;
+  padding:15px;
+  margin: 40px auto;
+  width: 350px;
+  height:550px;
+  background-color: hsl(0, 0%, 100%);
+  -webkit-box-shadow: 0px 7px 19px 0px rgba(50, 50, 50, 0.22);
+  -moz-box-shadow:    0px 7px 19px 0px rgba(50, 50, 50, 0.22);
+  box-shadow:         0px 7px 19px 0px rgba(50, 50, 50, 0.22);
+}
+
+.img-container{
+  height: 320px;
+  width:350px;
+}
+
+.card-img{
+  border-radius: 15px;
+  height: 320px;
+  width: 320px;
+}
+
+.text-container{
+  height: 250px;
+  margin-top: 25px;
+  padding:10px;
+}
+
+.card-header {
+  font-family: 'Outfit', sans-serif;
+  color:  hsl(218, 44%, 22%);
+  font-size: 25px;
+  text-align: center;
+}
+
+.card-paragrah {
+  margin: 20px;
+  color:  hsl(220, 15%, 55%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
